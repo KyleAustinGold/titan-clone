@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  /* ... Existing styles ... */
+
+  .top-header {
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .slideshow-container {
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+
+  #below-header-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3s;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-style: none;
+}
+  
+  .text {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-family: Titan22, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -.02em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .text p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+  
+  .slide-link {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .text strong {
+    color: #000;
+    font-family: Titan22, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -.02em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .text strong a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  
+  /* ... Existing styles ... */
+  
+  header {
+    background-color: #fff;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    display: block;
+  }
+
+nav a:hover, .dropdown-content a:hover {
+    text-decoration: underline;
+  }
+
+  #home-link {
+    margin-left: 120px;
+  }
+
+  #home-link img {
+    width: 80px; 
+    height: auto;
+  }
+  
+  #account-links a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .product-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .product {
+    box-sizing: border-box;
+    flex: 0 0 calc(25% - 30px); /* 4 columns, adjust width and margins accordingly */
+    padding: 15px;
+    margin: 0 15px 30px; /* Adjust the margins as needed */
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  #header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  #header-icons a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+  }
+  
+  #search-icon {
+    cursor: pointer;
+  }
+  
+  #cart-icon {
+    cursor: pointer;
+  }
+
+  /* ... Existing styles ... */
+
+/* ... Existing styles ... */
+
+/* Adjust the position of the dropdown content */
+/* ... Existing styles ... */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: var(--white);
+    color: var(--primary);
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--white);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    left: 0;
+    z-index: 1;
+    white-space: nowrap;
+  }
+  
+  .dropdown-content a {
+    color: var(--primary);
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: var(--gray);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Titan22, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -.02em;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+    /* ... BUBBLE ... */
+    /* Floating Bubble Styles */
+/* ... Existing styles ... */
+
+.floating-bubble {
+    box-sizing: border-box;
+    display: block;
+    background-color: #000000;
+    color: #ffffff;
+    margin: auto 20px 20px auto; /* Adjust the margins to position it at the lower-left */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    padding: 12px 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    pointer-events: all;
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+    bottom: 20px; /* Adjust the bottom value to position it at the desired distance from the bottom */
+    left: 20px; /* Adjust the left value to position it at the desired distance from the left */
+}
+
+.bubble-icon {
+    max-width: 40px; /* Adjust the width of the image */
+    max-height: 40px; /* Adjust the height of the image */
+    margin-right: 5px; /* Adjust the spacing between the image and text */
+}
+/* ... Existing styles ... */
+
+
+/* Overlay Styles */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 999;
+}
+
+/* QR Code Styles */
+.qr-code {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1001;
+    display: none;
+}
+
+/* Apply the styles only when hovering */
+.floating-bubble:hover + .overlay {
+    display: block;
+}
+
+.floating-bubble:hover + .overlay + .qr-code {
+    display: block;
+}
+
+  
+  
